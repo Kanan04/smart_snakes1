@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    position: relative;
+    background-image: url('../../images/background.jpg');
+    color: white;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(155, 155, 255);
+    transition: 0.5s;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(34, 143, 34);
+}
+
+.logo img{
+    position: absolute;
+    width: 130px;
+    margin-top: 33px;
+    margin-left: 33px;
+}
+
+#team-name{
+    display: flex;
+    position: absolute;
+    top: -33px;
+    left: 28px;
+    color: rgb(255, 255, 255);
+    font-family: Brush Script MT;
+}
+
+#page-name{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(41, 83, 57);
+    padding: 10px;
+    margin-left: -20px ;
+    
+}
+
+.tags{
+    position: absolute;
+    float: right;
+    top: -15px;
+    right: 0;
+    margin-right: 20px;
+    display: flex;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+#team-members {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+
+#member-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#member-name div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#member-name div img{
+    height: 400px;
+    
+}
+
+.content{
+    margin: 0px 20px 0px 20px;
+}
+
+.what-we-learned {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.what-we-learned ul li::marker{
+    color: rgb(0, 172, 0);
+}
+
+.code img{
+    max-width: 100%;  
+    height: auto;  
+}
+
+.steps{
+    display: flex;
+    position: absolute;
+    margin-left: 60px;
+}
+
+.process{
+    display: flex;
+    position: relative;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.process ol li::marker{
+    color: rgb(0, 172, 0);
+}
+
+#team-photo img{
+    height: 335px;
+    margin-bottom: 30px;
+
+}
+
+
+#hourofcode img{
+    display: flex;
+    position: relative;
+    margin-left: 150px;
+    margin-top: 30px;
+    height: 600px;
+}
+
+.feedback{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+header form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+header  form > input{
+    margin-bottom: 20px;
+    padding:10px 20px 10px 3px;
+}
+
+header  form > textarea{
+    width: 418px;
+    height: 152px;
+    font-size: 28px;
+}
+
+#submit{
+    width: 423px;
+    margin-top: 10px;
+    background-color: rgb(24 189 90);
+    border: 1px dashed black;
+    color: white;
+
+}
+
+header form input{
+    width: 400px;
+    font-size: 28px;
+}
+
+
+
+@keyframes scaleTranslate {
+    0%   {transform: scale(.8);}
+    100% {transform: scale(1.5);}
+  }
